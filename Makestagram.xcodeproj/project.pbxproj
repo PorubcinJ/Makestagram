@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D72FDCAE364BB83ACB2D80C /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FB0D3885CE360EDAE93E18 /* Pods_Makestagram.framework */; };
 		FEE03D391F01665800DBD89E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE03D381F01665800DBD89E /* AppDelegate.swift */; };
-		FEE03D3B1F01665800DBD89E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE03D3A1F01665800DBD89E /* ViewController.swift */; };
-		FEE03D3E1F01665800DBD89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE03D3C1F01665800DBD89E /* Main.storyboard */; };
 		FEE03D401F01665800DBD89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE03D3F1F01665800DBD89E /* Assets.xcassets */; };
-		FEE03D431F01665800DBD89E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE03D411F01665800DBD89E /* LaunchScreen.storyboard */; };
+		FEE03D551F016AA300DBD89E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEE03D501F016AA300DBD89E /* GoogleService-Info.plist */; };
+		FEE03D571F016AA300DBD89E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE03D521F016AA300DBD89E /* LaunchScreen.storyboard */; };
+		FEE03D581F016AA300DBD89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE03D531F016AA300DBD89E /* Main.storyboard */; };
+		FEE03D591F016AA300DBD89E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE03D541F016AA300DBD89E /* ViewController.swift */; };
+		FEE03D5E1F016C5B00DBD89E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE03D5D1F016C5B00DBD89E /* Login.storyboard */; };
+		FEE03D601F016CE700DBD89E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE03D5F1F016CE700DBD89E /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12FB0D3885CE360EDAE93E18 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		546B04A22D5BD767592A77DE /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
+		805A9D5BBDE4F549DE786CC1 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 		FEE03D351F01665800DBD89E /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE03D381F01665800DBD89E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FEE03D3A1F01665800DBD89E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FEE03D3D1F01665800DBD89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEE03D3F1F01665800DBD89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FEE03D421F01665800DBD89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FEE03D441F01665800DBD89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE03D501F016AA300DBD89E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FEE03D511F016AA300DBD89E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
+		FEE03D521F016AA300DBD89E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEE03D531F016AA300DBD89E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
+		FEE03D541F016AA300DBD89E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
+		FEE03D5D1F016C5B00DBD89E /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FEE03D5F1F016CE700DBD89E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D72FDCAE364BB83ACB2D80C /* Pods_Makestagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AE619E2C1BC2EC62C6DDE79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				546B04A22D5BD767592A77DE /* Pods-Makestagram.debug.xcconfig */,
+				805A9D5BBDE4F549DE786CC1 /* Pods-Makestagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A23D7D49E0AD90DDE5D209DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12FB0D3885CE360EDAE93E18 /* Pods_Makestagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FEE03D2C1F01665800DBD89E = {
 			isa = PBXGroup;
 			children = (
 				FEE03D371F01665800DBD89E /* Makestagram */,
+				4AE619E2C1BC2EC62C6DDE79 /* Pods */,
 				FEE03D361F01665800DBD89E /* Products */,
+				A23D7D49E0AD90DDE5D209DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +85,40 @@
 			isa = PBXGroup;
 			children = (
 				FEE03D381F01665800DBD89E /* AppDelegate.swift */,
-				FEE03D3A1F01665800DBD89E /* ViewController.swift */,
-				FEE03D3C1F01665800DBD89E /* Main.storyboard */,
 				FEE03D3F1F01665800DBD89E /* Assets.xcassets */,
-				FEE03D411F01665800DBD89E /* LaunchScreen.storyboard */,
-				FEE03D441F01665800DBD89E /* Info.plist */,
+				FEE03D5B1F016B4600DBD89E /* View Controllers */,
+				FEE03D5C1F016B6B00DBD89E /* Storyboards */,
+				FEE03D5A1F016B2000DBD89E /* Supporting Files */,
 			);
 			path = Makestagram;
+			sourceTree = "<group>";
+		};
+		FEE03D5A1F016B2000DBD89E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEE03D521F016AA300DBD89E /* LaunchScreen.storyboard */,
+				FEE03D501F016AA300DBD89E /* GoogleService-Info.plist */,
+				FEE03D511F016AA300DBD89E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEE03D5B1F016B4600DBD89E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEE03D541F016AA300DBD89E /* ViewController.swift */,
+				FEE03D5F1F016CE700DBD89E /* LoginViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FEE03D5C1F016B6B00DBD89E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FEE03D531F016AA300DBD89E /* Main.storyboard */,
+				FEE03D5D1F016C5B00DBD89E /* Login.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEE03D471F01665800DBD89E /* Build configuration list for PBXNativeTarget "Makestagram" */;
 			buildPhases = (
+				48903AC6E333805B44DAB6A8 /* [CP] Check Pods Manifest.lock */,
 				FEE03D311F01665800DBD89E /* Sources */,
 				FEE03D321F01665800DBD89E /* Frameworks */,
 				FEE03D331F01665800DBD89E /* Resources */,
+				D548F49CFF1F6F119866CF5F /* [CP] Embed Pods Frameworks */,
+				BEFA313F93F20EA63FCB585B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,44 +184,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE03D431F01665800DBD89E /* LaunchScreen.storyboard in Resources */,
 				FEE03D401F01665800DBD89E /* Assets.xcassets in Resources */,
-				FEE03D3E1F01665800DBD89E /* Main.storyboard in Resources */,
+				FEE03D581F016AA300DBD89E /* Main.storyboard in Resources */,
+				FEE03D571F016AA300DBD89E /* LaunchScreen.storyboard in Resources */,
+				FEE03D5E1F016C5B00DBD89E /* Login.storyboard in Resources */,
+				FEE03D551F016AA300DBD89E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48903AC6E333805B44DAB6A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEFA313F93F20EA63FCB585B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D548F49CFF1F6F119866CF5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FEE03D311F01665800DBD89E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE03D3B1F01665800DBD89E /* ViewController.swift in Sources */,
+				FEE03D601F016CE700DBD89E /* LoginViewController.swift in Sources */,
+				FEE03D591F016AA300DBD89E /* ViewController.swift in Sources */,
 				FEE03D391F01665800DBD89E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FEE03D3C1F01665800DBD89E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FEE03D3D1F01665800DBD89E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FEE03D411F01665800DBD89E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FEE03D421F01665800DBD89E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FEE03D451F01665800DBD89E /* Debug */ = {
@@ -261,12 +353,13 @@
 		};
 		FEE03D481F01665800DBD89E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546B04A22D5BD767592A77DE /* Pods-Makestagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZHF2BK8EVZ;
-				INFOPLIST_FILE = Makestagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jozefporubcin.Makestagram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jozefporubcin.Makestagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,12 +367,13 @@
 		};
 		FEE03D491F01665800DBD89E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805A9D5BBDE4F549DE786CC1 /* Pods-Makestagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZHF2BK8EVZ;
-				INFOPLIST_FILE = Makestagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jozefporubcin.Makestagram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jozefporubcin.Makestagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,6 +398,7 @@
 				FEE03D491F01665800DBD89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
