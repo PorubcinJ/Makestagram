@@ -17,9 +17,11 @@ extension UIStoryboard {
             return rawValue.capitalized
         }
     }
+	
     convenience init(type: MGType, bundle: Bundle? = nil) {
         self.init(name: type.filename, bundle: bundle)
     }
+	
     static func initialViewController(for type: MGType) -> UIViewController {
         let storyboard = UIStoryboard(type: type)
         guard let initialViewController = storyboard.instantiateInitialViewController() else {
@@ -28,4 +30,5 @@ extension UIStoryboard {
         
         return initialViewController
     }
+	
 }
