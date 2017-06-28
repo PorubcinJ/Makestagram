@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Camera" image="plus" id="PqU-cG-T32"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="Camera" image="plus" id="PqU-cG-T32"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w3o-E6-2Zb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -41,7 +41,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Find Friends" image="friends" id="ddI-oo-BFE"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="Find Friends" image="friends" id="ddI-oo-BFE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kHH-nd-Kh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="918" y="-1396"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="m0X-fH-ydg">
             <objects>
-                <tabBarController id="SF1-cS-pNQ" sceneMemberID="viewController">
+                <tabBarController id="SF1-cS-pNQ" customClass="MainTabBarController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="6D7-0j-Yw9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
