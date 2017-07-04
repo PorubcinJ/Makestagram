@@ -13,16 +13,18 @@ class User: NSObject {
     
     let uid: String
     let username: String
-    required init?(coder aDecoder: NSCoder) {
-        guard let uid = aDecoder.decodeObject(forKey: Constants.UserDefaults.uid) as? String,
-            let username = aDecoder.decodeObject(forKey: Constants.UserDefaults.username) as? String
-            else { return nil }
-        
-        self.uid = uid
-        self.username = username
-        
-        super.init()
-    }
+	
+	required init?(coder aDecoder: NSCoder) {
+		guard let uid = aDecoder.decodeObject(forKey: Constants.UserDefaults.uid) as? String,
+			let username = aDecoder.decodeObject(forKey: Constants.UserDefaults.username) as? String
+			else { return nil }
+		
+		self.uid = uid
+		self.username = username
+		
+		super.init()
+	}
+	
     init(uid: String, username: String) {
         self.uid = uid
         self.username = username
